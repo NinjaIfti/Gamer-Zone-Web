@@ -152,6 +152,10 @@ li {
 }
 
 /* Online games */
+.Online-games {
+    margin-bottom: 120px;
+}
+
 .Online-games-title {
     color: #0B0223;
     font-size: 48px;
@@ -194,17 +198,52 @@ li {
     color: #534C64;
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;  
+    font-weight: 500;
 }
-.hoverimg:hover{
+
+.hoverimg:hover {
     cursor: pointer;
     width: 342px;
-height: 400px;
-border-radius: 16px;
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    height: 400px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 }
 
+/* play instantly */
+.play-instant {
+
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.play-div{
+    margin-top: 130px;
+}
+
+.play {
+    color: #0B0223;
+    font-size: 48px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.online-p2 {
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.onlineimg {
+    position: relative;
+    bottom: 300px;
+    right: 200px;
+    border-radius: 8px;
+}
 
 
 

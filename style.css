@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* nav bar styles */
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1920px;
+    height: 130px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.logo-container {
+    display: flex;
+    
+}
+
+.nav-logo {
+    width: 86.041px;
+    height: 40px;
+
+}
+
+.bar-title {
+    margin-left: 20px;
+
+    
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav-item-container{
+    display: flex;
+    justify-content: space-between;
+}

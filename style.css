@@ -1,11 +1,17 @@
 * {
     margin: 0px;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
 * {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 
@@ -22,23 +28,117 @@
 
 .logo-container {
     display: flex;
-    
+    width: 50%;
+
 }
 
 .nav-logo {
     width: 86.041px;
     height: 40px;
+    margin-left: 240px;
 
 }
 
 .bar-title {
     margin-left: 20px;
-
-    
     font-size: 45px;
     font-weight: 700;
 }
-.nav-item-container{
+
+.nav-items-container {
+    width: 20%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+
+}
+
+.nav-items-container a {
+    text-decoration: none;
+    color: #3C354F;
+
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+
+/* banner */
+
+.left-side-banner {
+    width: 901px;
+    height: 700px;
+    background-image: url(./images/Group\ 14.png), linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background-repeat: no-repeat;
+    
+}
+
+
+.banner-title {
+    color: #0B0223;
+    margin-left: 244px;
+    
+    font-size: 48px;
+    padding-top: 148px;
+    font-weight: 600;
+
+    text-transform: uppercase;
+}
+
+.goat {
+    margin-left: 234px;
+    margin-bottom: 24px;
+
+    font-size: 95px;
+    font-weight: 1000;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-list {
+    color: #534C64;
+    margin-left: 240px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    
+}
+li{
+    list-style-type: none;
+    margin-bottom: 17px;
+}
+.left-btn{
+    margin-left: 230px;
+    margin-top: 41px;
+}
+.left-sign-in{
+    
+padding: 21px 40px;
+border: none;
+gap: 10px;
+border-radius: 48px;
+background-color: #FF42A5;
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+margin-right: 24px;
+}
+.left-sign-in:hover{
+    cursor: pointer;
+}
+.left-go {
+padding: 21px 40px;
+border-radius: 48px;
+background: #4EC5F7;
+color: #FFF;
+border: none;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+gap: 10px;
+}
+
+.left-go:hover{
+    cursor: pointer;
 }

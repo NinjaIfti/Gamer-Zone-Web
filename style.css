@@ -1,7 +1,3 @@
-* {
-    margin: 0px;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 * {
@@ -18,12 +14,13 @@
 /* nav bar styles */
 .nav-container {
     display: flex;
-    justify-content: space-around;
+
     align-items: center;
     width: 1920px;
     height: 130px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
 }
 
 .logo-container {
@@ -36,6 +33,7 @@
     width: 86.041px;
     height: 40px;
     margin-left: 240px;
+    margin-top: 44px;
 
 }
 
@@ -63,10 +61,10 @@
 
 
 /* banner */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .left-side-banner {
@@ -74,14 +72,14 @@
     height: 700px;
     background-image: url(./images/Group\ 14.png), linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
     background-repeat: no-repeat;
-    
+
 }
 
 
 .banner-title {
     color: #0B0223;
     margin-left: 244px;
-    
+
     font-size: 48px;
     padding-top: 148px;
     font-weight: 600;
@@ -106,44 +104,136 @@
     font-size: 20px;
     font-weight: 500;
     text-transform: lowercase;
-    
+
 }
-li{
+
+li {
     list-style-type: none;
     margin-bottom: 17px;
 }
-.left-btn{
+
+.left-btn {
     margin-left: 230px;
     margin-top: 41px;
 }
-.left-sign-in{
-    
-padding: 21px 40px;
-border: none;
-gap: 10px;
-border-radius: 48px;
-background-color: #FF42A5;
-color: #FFF;
-font-size: 20px;
-font-weight: 600;
-text-transform: uppercase;
-margin-right: 24px;
-}
-.left-sign-in:hover{
-    cursor: pointer;
-}
-.left-go {
-padding: 21px 40px;
-border-radius: 48px;
-background: #4EC5F7;
-color: #FFF;
-border: none;
-font-size: 20px;
-font-weight: 600;
-text-transform: uppercase;
-gap: 10px;
+
+.left-sign-in {
+
+    padding: 21px 40px;
+    border: none;
+    gap: 10px;
+    border-radius: 48px;
+    background-color: #FF42A5;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 24px;
 }
 
-.left-go:hover{
+.left-sign-in:hover {
     cursor: pointer;
+}
+
+.left-go {
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    gap: 10px;
+}
+
+.left-go:hover {
+    cursor: pointer;
+}
+
+/* Online games */
+.Online-games-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.f {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.online-p {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.online-game-div {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card-p {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cp {
+    width: 244px;
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;  
+}
+
+
+
+
+
+
+
+/* responsive */
+/* mobile */
+@media screen and (max-width: 425px) {
+
+    .nav-container {
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        box-shadow: none;
+        margin-top: 30px;
+    }
+
+    .nav-logo {
+        margin-top: 4px;
+        margin-left: 0px;
+    }
+
+    .nav-items-container {
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .nav-items-container a {
+        margin-top: 10px;
+        padding-top: 1;
+    }
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
 }

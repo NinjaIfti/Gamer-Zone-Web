@@ -19,17 +19,18 @@
 /* nav bar styles */
 .nav-container {
     display: flex;
-
+    justify-content: space-around;
     align-items: center;
-    width: 1920px;
-    height: 130px;
+     height: 5rem;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    margin: 0 auto;
+    
 }
 
 .logo-container {
+    display: flex;
     margin-left: 240px;
+    align-items: center;
     display: flex;
     width: 50%;
 
@@ -458,28 +459,68 @@ li {
 /* responsive */
 /* mobile */
 @media screen and (max-width: 425px) {
+    *{
+        max-width: 425px;
+    }
+
     .nav-container{
         flex-direction: column;
         height: fit-content;
         align-content: center;
         justify-content: center;
         text-align: center;
+        padding: 4 rem;
+        line-height: 2rem;
 
     }
     .nav-items-container{
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        
+    }
+    .logo-container{
+        margin: 0px;
+        margin-top: 10px;
+        margin-bottom: 62px;
+    }
+    .nav-logo{
+         margin-left: 0px;
+    }
+    .dvlop{
+        margin-top: 36px;
+        margin-bottom: 36px;
     }
     .banner{
-        flex-direction: column;
-
+        flex-direction: column-reverse;
+        
+    }
+    .nav-flw{
+        margin-bottom: 48px;
     }
     .right-side-banner{
         max-width: 90vh;
-        max-height: 100vh;
-        
+    }
+    .left-side-banner{
+        width: 901px;
+        height: 700px;
         
     }
-
+    .banner-title{
+        margin-left: 10px;
+    }
+    .goat{
+        margin-left: 10px;
+    }
+    .banner-list{
+        margin-left: 10px;
+    }
+    .left-btn{
+        margin-left: 10px;
+    }
+    
+    
 }
+    
+
+

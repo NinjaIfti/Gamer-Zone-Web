@@ -18,9 +18,7 @@
 
 /* nav bar styles */
 .nav-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: flex;     
     height: 5rem;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -333,7 +331,7 @@ li {
 }
 
 /* Game  Catagory */
-.cat-content {
+ .cat-content {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -342,7 +340,7 @@ li {
     border-radius: 50px;
     background: #FFF;
 }
-
+ 
 .cat-content:hover {
     cursor: pointer;
     border-radius: 50px;
@@ -358,29 +356,33 @@ li {
     margin-left: 20px;
     display: flex;
     justify-content: space-around;
+    gap: 90px;
 
 }
 
 .cat-content-2 {
-    margin-left: 180px;
+    margin-left: 280px;
     margin-top: 50px;
     display: flex;
-    width: 80%;
+    width: 70%;
     justify-content: space-around;
+    margin-bottom: 120px;
 }
+ 
 
 .cat-p {
     color: #0B0223;
     font-size: 20px;
     font-weight: 600;
 
-}
+} 
+
 
 
 
 /* footer  */
 .footer-container {
-    margin-top: 50px;
+    margin-top: 10px;
     height: 636px;
 
     background: #0B0223;
@@ -459,9 +461,7 @@ li {
 /* responsive */
 /* mobile */
 @media screen and (max-width: 425px) {
-    * {
-        max-width: 425px;
-    }
+   
 
     .nav-container {
         flex-direction: column;
@@ -469,8 +469,9 @@ li {
         align-content: center;
         justify-content: center;
         text-align: center;
-        padding: 4 rem;
+        align-items: center;
         line-height: 2rem;
+        box-shadow: none;
 
     }
 
@@ -552,6 +553,7 @@ li {
     .online-p2 {
         margin-bottom: 70px;
     }
+    
 
     .img2 {
         width: 634.833px;
@@ -645,7 +647,7 @@ li {
         margin-top: 100px;
     }
     .footer-icon{
-        margin-left: 300px;
+        margin-left: 30px;
     }
     
 }

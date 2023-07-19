@@ -419,6 +419,10 @@ li {
     font-weight: 600;
     padding-top: 56px;
 }
+.footer-description-2{
+    gap: 20px;
+    margin-bottom: 20px;
+}
 
 .footer-icon {
     margin-left: 731px;

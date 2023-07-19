@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 
 * {
     font-family: 'Lato', sans-serif;
@@ -79,18 +83,15 @@
 .banner-title {
     color: #0B0223;
     margin-left: 244px;
-
     font-size: 48px;
     padding-top: 148px;
     font-weight: 600;
-
     text-transform: uppercase;
 }
 
 .goat {
     margin-left: 234px;
     margin-bottom: 24px;
-
     font-size: 95px;
     font-weight: 1000;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -218,7 +219,8 @@ li {
 
 
 }
-.play-div{
+
+.play-div {
     margin-top: 130px;
 }
 
@@ -245,6 +247,42 @@ li {
     border-radius: 8px;
 }
 
+/* Game  Catagory */
+.game-cat {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+       gap: 28px;
+    align-items: center;
+    list-style: none;
+}
+
+.cat-p {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cat-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.cat-content:hover {
+    cursor: pointer;
+    border-radius: 50px;
+    border: 50px;
+    border-color: #FF42A5;
+    background: #FFF;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
 
 
 
@@ -263,7 +301,8 @@ li {
         justify-content: center;
         text-align: center;
         padding: 4rem;
-        line-height: 2rem;;
+        line-height: 2rem;
+        ;
     }
 
     .nav-logo {
@@ -284,9 +323,10 @@ li {
 
     .banner {
         flex-direction: column;
-        
+
     }
-    .left-side-banner{
+
+    .left-side-banner {
         max-width: 90vw;
         max-height: 100vh;
         margin-top: 2rem;

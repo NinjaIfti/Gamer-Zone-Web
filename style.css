@@ -258,10 +258,12 @@ li {
 
     .nav-container {
         flex-direction: column;
-        background-color: white;
-        width: 100%;
-        box-shadow: none;
-        margin-top: 30px;
+        height: fit-content;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        padding: 4rem;
+        line-height: 2rem;;
     }
 
     .nav-logo {
@@ -271,8 +273,7 @@ li {
 
     .nav-items-container {
         flex-direction: column;
-        margin-top: 10px;
-        margin-bottom: 50px;
+        justify-content: center;
         text-align: center;
     }
 
@@ -283,6 +284,11 @@ li {
 
     .banner {
         flex-direction: column;
-        align-items: center;
+        
+    }
+    .left-side-banner{
+        max-width: 90vw;
+        max-height: 100vh;
+        margin-top: 2rem;
     }
 }

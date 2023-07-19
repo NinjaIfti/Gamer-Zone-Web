@@ -111,7 +111,7 @@
     width: 901px;
     height: 700px;
     background-image: url(./images/Group\ 14.png), linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
-   
+
 
 }
 
@@ -239,12 +239,59 @@ li {
     font-weight: 500;
 }
 
-.hoverimg:hover {
+.play-icon {
+    width: 48px;
+    height: 48px;
+
+
+}
+
+.hoverimg {
+    position: relative;
+    
+}
+
+.hover-img {
+   
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+.img-overlay > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+
+}
+
+.img-overlay:hover{
     cursor: pointer;
-    width: 342px;
-    height: 400px;
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    opacity: 1;
+}
+.img-overlay:hover > *{
+    transform: translateY(0);
+}
+
+.img-description {
+    font-size: 20px;
+    font-weight: 600;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
@@ -285,48 +332,46 @@ li {
 }
 
 /* Game  Catagory */
-.cat-content{
+.cat-content {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 281px;
-height: 80px;
-border-radius: 50px;
-background: #FFF;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
 }
 
-.cat-content:hover{
+.cat-content:hover {
     cursor: pointer;
     border-radius: 50px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-border: 1px solid #FF42A5;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #FF42A5;
 }
 
 
-.cat-content-1{
+.cat-content-1 {
     margin-left: 20px;
     display: flex;
     justify-content: space-around;
-    
-}
-.cat-content-2{
 
+}
+
+.cat-content-2 {
     margin-left: 180px;
-    
     margin-top: 50px;
     display: flex;
     width: 80%;
     justify-content: space-around;
 }
-.cat-p{
+
+.cat-p {
     color: #0B0223;
-
-font-size: 20px;
-
-font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
 
 }
 

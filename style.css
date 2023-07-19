@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
@@ -251,7 +252,7 @@ li {
 .game-cat {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-       gap: 28px;
+    gap: 28px;
     align-items: center;
     list-style: none;
 }
@@ -282,7 +283,63 @@ li {
 
 }
 
+/* footer  */
+.footer-container {
+    margin-top: 50px;
+    height: 636px;
 
+    background: #0B0223;
+}
+
+.footer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    color: white;
+    padding-top: 120px;
+    gap: 10px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.footer-description {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 56px;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-description-2 {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    list-style: none;
+
+
+}
 
 
 

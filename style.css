@@ -292,7 +292,7 @@ li {
 }
 
 .footer {
-    
+
     display: flex;
     justify-content: center;
     align-items: start;
@@ -324,10 +324,24 @@ li {
 }
 
 .footer-icon {
+    margin-left: 731px;
+    width: 25%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+
+
 }
+
+.footer-img {
+    width: 40px;
+    height: 40px;
+
+}
+
 
 .footer-description-2 {
     color: rgba(255, 255, 255, 0.60);

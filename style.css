@@ -620,8 +620,8 @@ li {
         
         
     }
-    .nav-flw{
-        
+    .footer{
+        padding-top: 30px;
     }
     .left-side-banner{
         margin-top: 200px;
@@ -654,7 +654,29 @@ li {
         margin-top: 100px;
     }
     .footer-icon{
-        margin-left: 30px;
+        margin-left: 250px;
+        width: 30vh;
+        flex-wrap: wrap;
+        gap: 30px;
     }
+    .footer-description{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+  .cat-content{
+    height: 100px;
+    width: 300px;
+    
+    flex-wrap: wrap;
+    
+
+  }
+  .cat-content-1{
+    gap: 20px;
+  }
+  .cat-content-2{
+    margin-left: 110px;
+    gap: 50px;
+  }
     
 }

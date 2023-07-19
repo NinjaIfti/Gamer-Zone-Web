@@ -29,16 +29,17 @@
 }
 
 .logo-container {
+    margin-left: 240px;
     display: flex;
     width: 50%;
 
 }
 
 .nav-logo {
-    width: 86.041px;
+    width: 86px;
     height: 40px;
     margin-left: 240px;
-    margin-top: 44px;
+    margin-top: 7px;
 
 }
 
@@ -49,21 +50,55 @@
 }
 
 .nav-items-container {
-    width: 20%;
+
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+
+
 
 }
 
 .nav-items-container a {
+
     text-decoration: none;
     color: #3C354F;
-
     font-size: 18px;
     font-weight: 500;
 
 }
 
+.abt-us {
+    margin-top: 5px;
+}
+
+.dvlop {
+    margin-top: 5px;
+    margin-left: 24px;
+}
+
+
+.nav-flw {
+
+    width: 230px;
+    height: 46px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    margin-left: 24px;
+
+}
+
+.flw-title {
+    margin-left: 30px;
+
+}
+
+.flw-logo {
+
+    margin-top: 6px;
+    width: 24px;
+    height: 24px;
+}
 
 /* banner */
 .banner {
@@ -155,6 +190,7 @@ li {
 
 /* Online games */
 .Online-games {
+    margin-top: 100px;
     margin-bottom: 120px;
 }
 
@@ -249,39 +285,41 @@ li {
 }
 
 /* Game  Catagory */
-.game-cat {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 28px;
-    align-items: center;
-    list-style: none;
-}
-
-.cat-p {
-    color: #0B0223;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.cat-content {
+.cat-content{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 32px;
-}
-
-.cat-content:hover {
-    cursor: pointer;
-    border-radius: 50px;
-    border: 50px;
-    border-color: #FF42A5;
-    background: #FFF;
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    width: 281px;
+height: 80px;
+border-radius: 50px;
+background: #FFF;
 
 }
+.cat-content-1{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.cat-content-2{
+
+    margin-left: 180px;
+    
+    margin-top: 50px;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+.cat-p{
+    color: #0B0223;
+
+font-size: 20px;
+
+font-weight: 600;
+
+}
+
+
 
 /* footer  */
 .footer-container {

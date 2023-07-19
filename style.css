@@ -21,10 +21,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-     height: 5rem;
+    height: 5rem;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    
+
 }
 
 .logo-container {
@@ -249,12 +249,10 @@ li {
 
 .hoverimg {
     position: relative;
-    
+
 }
 
-.hover-img {
-   
-}
+.hover-img {}
 
 .img-overlay {
     position: absolute;
@@ -272,17 +270,19 @@ li {
     transition: opacity 0.25s;
 
 }
-.img-overlay > *{
+
+.img-overlay>* {
     transform: translateY(20px);
     transition: transform 0.25s;
 
 }
 
-.img-overlay:hover{
+.img-overlay:hover {
     cursor: pointer;
     opacity: 1;
 }
-.img-overlay:hover > *{
+
+.img-overlay:hover>* {
     transform: translateY(0);
 }
 
@@ -459,11 +459,11 @@ li {
 /* responsive */
 /* mobile */
 @media screen and (max-width: 425px) {
-    *{
+    * {
         max-width: 425px;
     }
 
-    .nav-container{
+    .nav-container {
         flex-direction: column;
         height: fit-content;
         align-content: center;
@@ -473,54 +473,158 @@ li {
         line-height: 2rem;
 
     }
-    .nav-items-container{
+
+    .nav-items-container {
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        
+
     }
-    .logo-container{
+
+    .logo-container {
         margin: 0px;
         margin-top: 10px;
         margin-bottom: 62px;
     }
-    .nav-logo{
-         margin-left: 0px;
+
+    .nav-logo {
+        margin-left: 0px;
     }
-    .dvlop{
+
+    .dvlop {
         margin-top: 36px;
         margin-bottom: 36px;
     }
-    .banner{
+
+    .banner {
         flex-direction: column-reverse;
-        
+
     }
-    .nav-flw{
+
+    .nav-flw {
         margin-bottom: 48px;
     }
-    .right-side-banner{
+
+    .right-side-banner {
         max-width: 90vh;
     }
-    .left-side-banner{
+
+    .left-side-banner {
         width: 901px;
         height: 700px;
+
+    }
+
+    .banner-title {
+        margin-left: 10px;
+    }
+
+    .goat {
+        margin-left: 10px;
+    }
+
+    .banner-list {
+        margin-left: 10px;
+    }
+
+    .left-btn {
+        margin-left: 10px;
+    }
+
+    .online-game-div {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .online-p {
+        padding: 15px;
+    }
+
+    .cp {
+        margin-bottom: 20px;
+    }
+
+    .play-instant {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .online-p2 {
+        margin-bottom: 70px;
+    }
+
+    .img2 {
+        width: 634.833px;
+        height: 450px;
+
+    }
+
+    .onlineimg {
+        margin-left: 150px;
+        margin-top: 170px;
+        width: 234px;
+        height: 200px;
+    }
+    .game-cat{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 425px;
+        flex-grow: 1;
+    }
+    .footer-icon{
+        margin-left: 150px;
+        max-width: 625px;
+        flex-wrap: wrap;
         
     }
-    .banner-title{
-        margin-left: 10px;
+    .footer-description{
+    flex-basis: 100px;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        gap: 20px;
+        
+        
+        
     }
-    .goat{
-        margin-left: 10px;
+
+
+
+}
+/* tablet device */
+@media screen and (min-width: 426px) and (max-width: 769px) {
+    .nav-container{
+        margin-left: 280px;
+        display: block;
+        box-shadow: none;
+
     }
-    .banner-list{
-        margin-left: 10px;
+    .nav-logo{
+        margin-left: 0px;
     }
-    .left-btn{
-        margin-left: 10px;
+    .logo-container{
+        margin-bottom: 40px;
+        margin-left: 0px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .nav-items-container{
+        
+        flex-direction: column;
+        
+    }
+    .left-side-banner{
+        margin-top: 200px;
+        max-width: 768px;
+    }
+    .dvlop{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .online-game-div{
+        flex-direction: column;
     }
     
     
 }
-    
-
-

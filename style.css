@@ -458,42 +458,28 @@ li {
 /* responsive */
 /* mobile */
 @media screen and (max-width: 425px) {
-
-    .nav-container {
+    .nav-container{
         flex-direction: column;
         height: fit-content;
         align-content: center;
         justify-content: center;
         text-align: center;
-        padding: 4rem;
-        line-height: 2rem;
-        ;
-    }
 
-    .nav-logo {
-        margin-top: 4px;
-        margin-left: 0px;
     }
-
-    .nav-items-container {
+    .nav-items-container{
         flex-direction: column;
         justify-content: center;
         text-align: center;
     }
-
-    .nav-items-container a {
-        margin-top: 10px;
-        padding-top: 1;
-    }
-
-    .banner {
+    .banner{
         flex-direction: column;
 
     }
-
-    .left-side-banner {
-        max-width: 90vw;
+    .right-side-banner{
+        max-width: 90vh;
         max-height: 100vh;
-        margin-top: 2rem;
+        
+        
     }
+
 }

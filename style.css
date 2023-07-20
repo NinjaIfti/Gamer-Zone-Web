@@ -113,6 +113,9 @@
 
 
 }
+.right-side-banner{
+    width: 100%;
+}
 
 
 .banner-title {
@@ -510,15 +513,26 @@ li {
         margin-bottom: 48px;
     }
 
-    .right-side-banner {
-        max-width: 90vh;
-    }
+    
 
     .left-side-banner {
-        width: 901px;
-        height: 700px;
+        width: 90%;
+        background-image: none;
+        align-items: center;
+        transform: scale(0.7);
+        
 
     }
+    .right-side-banner{
+        transform: scale(0.8);
+    }
+    .play-div{
+        margin-top: 0px;
+    }
+    .play-instant{
+        transform: scale(0.7);
+    }
+   
 
     .banner-title {
         margin-left: 10px;
@@ -534,6 +548,10 @@ li {
 
     .left-btn {
         margin-left: 10px;
+    }
+    .Online-games{
+        margin-top: 10px;
+        transform: scale(0.7);
     }
 
     .online-game-div {
@@ -587,6 +605,9 @@ li {
         flex-wrap: wrap;
         gap: 10px;
     }
+    .footer-description-2{
+        flex-direction: column;
+    }
     .cat-content{
         height: 100px;
         width: 300px;
@@ -597,14 +618,22 @@ li {
       }
       .cat-content-1{
         gap: 20px;
+        display: block;
+        margin-left: 0px;
       }
       .cat-content-2{
+        margin-top: 10px;
         flex-wrap: wrap;
-        margin-left: 110px;
-        gap: 50px;
+        margin-left: 0px;
+        gap: 10px;
       }
       .footer{
         padding-top: 40px;
+        transform: 0.4;
+        
+      }
+      .footer-container{
+        height: 100%;
       }
       .cat-content-1{
         flex-wrap: wrap;
